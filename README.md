@@ -86,7 +86,7 @@ This Python script scans and corrects grammatical errors in `README.md` files wi
 Run the script from the command line with the required arguments:
 
 ```bash
-python script_name.py [repo_url] [options]
+python grammar-check-for-readme.py [repo_url] [options]
 ```
 
 ### Arguments
@@ -100,25 +100,25 @@ python script_name.py [repo_url] [options]
 - **Basic Usage**:
 
   ```bash
-  python script_name.py https://github.com/username/repo.git
+  python grammar-check-for-readme.py https://github.com/username/repo.git
   ```
 
 - **Specify a Branch**:
 
   ```bash
-  python script_name.py https://github.com/username/repo.git --branch develop
+  python grammar-check-for-readme.py https://github.com/username/repo.git --branch develop
   ```
 
 - **Recursive Scanning**:
 
   ```bash
-  python script_name.py https://github.com/username/repo.git --recursive
+  python grammar-check-for-readme.py https://github.com/username/repo.git --recursive
   ```
 
 - **Prompt for Repository URL if not provided during first run**:
 
   ```bash
-  python script_name.py
+  python grammar-check-for-readme.py
   ```
 
   The script will ask:
